@@ -1,0 +1,40 @@
+# Переменные окружения (никогда не коммить!)
+.env
+.env.local
+.env.*.local
+
+# PHP зависимости
+vendor/
+
+# Node.js зависимости (и в корне, и во frontend)
+node_modules/
+frontend/node_modules/
+
+# Laravel storage
+storage/logs/*
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+storage/app/*
+!storage/app/.gitkeep
+!storage/framework/.gitkeep
+!storage/logs/.gitkeep
+
+# Laravel bootstrap cache
+bootstrap/cache/*
+!bootstrap/cache/.gitkeep
+
+# IDE и редакторы
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# NPM логи
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+

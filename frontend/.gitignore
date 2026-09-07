@@ -1,0 +1,16 @@
+# Зависимости
+node_modules/
+
+# Дистрибутивы
+dist/
+dist-ssr/
+*.local
+
+# Редакторы
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
